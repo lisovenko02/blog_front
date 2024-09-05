@@ -1,0 +1,5 @@
+.comment_list {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 15px;
+}

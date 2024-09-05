@@ -1,0 +1,11 @@
+.post_listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.post_mainTitle {
+  display: flex;
+  justify-content: center;
+  color: white;
+}

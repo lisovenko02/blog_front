@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+  .user_upperContainer {
+    max-width: 350px;
+    padding: 0;
+  }
+
+  .user_avatarContainer {
+    max-width: 350px;
+    max-height: 350px;
+  }
+}
+
+.user_upperContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.user_avatarContainer {
+  max-width: 400px;
+  border-radius: 50%;
+  border: 1px solid white;
+  overflow: hidden;
+}
+
+.user_lowerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user_name {
+  font-size: 80px;
+  color: white;
+}
+
+.user_logOut {
+  font-size: 30px;
+  color: white;
+}
+.user_email {
+  font-size: 20px;
+  color: white;
+}
+
+.user_btn {
+  background-color: #fff;
+  color: #0a0a23;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+  margin-top: 10px;
+}

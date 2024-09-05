@@ -1,0 +1,42 @@
+.comment_container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.comment_upperContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment_authorContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.comment_authorName {
+  color: white;
+  font-size: 16px;
+}
+
+.comment_text {
+  color: white;
+}
+
+.comment_lowerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 10px;
+}
+
+.comment_createDate {
+  color: #fff;
+  font-size: 10px;
+}
+
+.comment_deleteIcn {
+  background-color: inherit;
+}

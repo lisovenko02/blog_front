@@ -1,0 +1,31 @@
+.addComment_form {
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #30363d;
+}
+
+.addComment_title {
+  color: #fff;
+}
+
+.addComment_container {
+  display: flex;
+  gap: 5px;
+}
+
+.addComment_input {
+  width: 98%;
+  border: 1px solid #30363d;
+  background-color: #161b22;
+  border-radius: 6px;
+  padding: 8px;
+  color: #fff;
+}
+
+.addComment_btn {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: white;
+  padding-top: 9px;
+}

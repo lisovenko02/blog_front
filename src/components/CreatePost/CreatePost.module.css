@@ -1,0 +1,66 @@
+.create_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.create_imgWrap {
+  position: relative;
+  border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+}
+
+.create_postImg {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 350px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #696968;
+}
+
+.create_buttonAddImg {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-color: inherit;
+  transition: all 150ms linear;
+  cursor: pointer;
+}
+
+.create_hiddenInput {
+  display: none;
+}
+
+.create_textarea {
+  border: 1px solid #696968;
+  border-radius: 3px;
+  padding: 4px;
+  resize: none;
+}
+
+.create_input {
+  border: 1px solid #696968;
+  border-radius: 3px;
+  padding: 4px;
+}
+
+.create_btnCreate {
+  background-color: #1f6feb;
+  border-color: #f0f6fc1a;
+  color: #fff;
+  border-radius: 6px;
+  width: 100px;
+  margin: auto;
+  padding: 7px;
+}

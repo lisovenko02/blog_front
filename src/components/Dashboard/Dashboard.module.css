@@ -1,0 +1,22 @@
+@media screen and (min-width: 1058px) {
+  .dashboard_createBtn {
+    display: none;
+  }
+}
+
+.dashboard_mainContainer {
+  width: 100%;
+}
+
+.dashboard_createContainer {
+  display: flex;
+  justify-content: end;
+}
+
+.dashboard_createBtn {
+  background-color: inherit;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #30363d;
+  margin: 10px;
+}

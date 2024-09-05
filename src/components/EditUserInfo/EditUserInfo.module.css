@@ -1,0 +1,89 @@
+@media screen and (max-width: 767px) {
+  .editProfile_buttonAddImg {
+    top: 148px;
+    left: 46%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .editProfile_buttonAddImg {
+    top: 160px;
+    left: 48%;
+  }
+}
+
+.editProfile_form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.editProfile_imgWrap {
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.editProfile_avatarImg {
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.editProfile_buttonAddImg {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.editProfile_input {
+  width: 100%;
+  padding: 14px 4px;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  border: 1px solid #30363d;
+  background-color: #fff;
+  outline: none;
+  border-radius: 8px;
+  color: #161616;
+  transition: all 250ms ease;
+  margin-top: 10px;
+}
+
+.editProfile_sendBtn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px;
+  border: none;
+  background: #30363d;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+  color: #fff;
+  transition: all 150ms linear;
+  cursor: pointer;
+}
+
+.editProfile_passWrap {
+  position: relative;
+}
+
+.editProfile_togglePassWrap {
+  position: absolute;
+  top: 24px;
+  right: 18px;
+  fill: none;
+  cursor: pointer;
+}

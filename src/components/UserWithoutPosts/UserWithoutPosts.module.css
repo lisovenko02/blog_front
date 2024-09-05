@@ -1,0 +1,11 @@
+.withoutPosts_text {
+  color: #fff;
+}
+
+.withoutPosts_span {
+  background-color: inherit;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+  padding: 1px;
+}

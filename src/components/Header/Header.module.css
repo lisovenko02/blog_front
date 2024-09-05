@@ -1,0 +1,38 @@
+.header_allContainer {
+  display: flex;
+  position: sticky;
+  margin: 0;
+  color: #e6edf3;
+  background-color: #010409;
+  border-bottom: 1px solid #30363d;
+  padding: 10px;
+}
+.header_mainContainer {
+  flex: 1 1 auto;
+  gap: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_rightSide {
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: flex-end;
+  gap: 2px;
+  align-items: center;
+}
+
+.header_greetingText {
+  color: white;
+}
+
+.header_avatar {
+  border-radius: 30%;
+  overflow: hidden;
+}
+
+.header_btnLogOut {
+  background-color: inherit;
+  color: #fff;
+}

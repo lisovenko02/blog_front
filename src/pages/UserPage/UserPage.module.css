@@ -1,0 +1,38 @@
+@media screen and (max-width: 767px) {
+  .user_container {
+    flex-direction: column;
+  }
+
+  .user_info {
+    border-bottom: 2px solid #30363d;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .user_info {
+    position: sticky;
+    align-self: flex-start;
+    top: 0;
+    border-right: 2px solid #30363d;
+    position: -webkit-sticky;
+  }
+}
+
+.user_container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.user_info {
+  display: flex;
+  flex: 0 0 400px;
+  justify-content: center;
+  background-color: #bf398910;
+  padding: 10px;
+  height: 100vh;
+}
+
+.user_posts {
+  flex: 1;
+  padding: 20px;
+}

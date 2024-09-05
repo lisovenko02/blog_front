@@ -1,0 +1,29 @@
+@media (max-width: 1058px) {
+  .dashboardSideBar_container {
+    display: none;
+  }
+}
+
+.dashboardSideBar_container {
+  border-left: 1px solid #30363d;
+  width: 420px;
+  color: white;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  position: sticky;
+  align-self: flex-start;
+  top: 0;
+  height: 100vh;
+}
+
+.dashboardSideBar_createBtn {
+  padding: 3px;
+  border: 1px solid #043b25;
+  border-radius: 4px;
+  background-color: #065535;
+}
+
+.dashboardSideBar_createContainer {
+  cursor: pointer;
+}
