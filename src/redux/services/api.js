@@ -1,7 +1,6 @@
 import axios from 'axios'
 
-// axios.defaults.baseURL = 'https://blog-back-xb5x.onrender.com';
-axios.defaults.baseURL = 'http://localhost:4000'
+axios.defaults.baseURL = 'https://blog-back-1-i2wx.onrender.com'
 
 export const setAuthHeader = (token) => {
   axios.defaults.headers.common.Authorization = `Bearer ${token}`
