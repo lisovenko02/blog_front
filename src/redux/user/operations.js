@@ -40,7 +40,7 @@ export const refreshUser = createAsyncThunk(
   'auth/refresh',
   async (_, thunkAPI) => {
     const state = thunkAPI.getState()
-    console.log(state)
+
     const token = state.user.token
     if (!token) {
       return thunkAPI.rejectWithValue('No valid token')
@@ -50,7 +50,7 @@ export const refreshUser = createAsyncThunk(
 
     try {
       const resp = await API.refresh()
-      console.log(resp)
+
       return resp
     } catch (err) {
       return thunkAPI.rejectWithValue(err.message)

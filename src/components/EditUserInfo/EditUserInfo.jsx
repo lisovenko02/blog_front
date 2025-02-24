@@ -46,7 +46,7 @@ const EditUserInfo = ({ closeModal }) => {
 
     if (password) formData.set('password', password)
     if (avatarIMG) formData.set('avatar', avatarIMG)
-    console.log(avatarIMG)
+
     dispatch(editUserProfile(formData))
     closeModal()
   }

@@ -1,14 +1,17 @@
 .popularPosts_container {
   display: flex;
   margin-top: 20px;
+  justify-content: space-between;
 }
 
 .popularPosts_avatarLink {
   display: flex;
   margin-right: 8px;
   align-items: center;
+  gap: 8px;
 }
 
 .popularPosts_postLink {
   display: flex;
+  flex-direction: column;
 }

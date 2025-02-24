@@ -11,13 +11,11 @@ const PopularPostsItem = ({ post }) => {
       <div className={styles.popularPosts_container}>
         <NavLink to={`post/${id}`} className={styles.popularPosts_avatarLink}>
           <img src={authorAvatar} alt={id} height="30px" width="30px" />
+          <p style={{ marginRight: '8px' }}>{title}</p>
         </NavLink>
         <NavLink to={`post/${id}`} className={styles.popularPosts_postLink}>
-          <p style={{ marginRight: '8px' }}>{title}</p>
-          <p>
-            {' '}
-            <BsHeart size="16px" /> {likes?.length || 0}
-          </p>
+          <BsHeart size="16px" />
+          <p>{likes?.length || 0}</p>
         </NavLink>
       </div>
     </li>
